@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Search NYC building permits by ZIP code using NYC Department of Buildings open data">
+  	<meta name="keywords" content="NYC building permits, construction permits, permit lookup">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>BuildScope - NYC Permit Lookup</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<header>
+			<h1>BuildScope</h1>
+			<p>Look up recent NYC building permits by ZIP code.</p>
+		</header>
+
+		<main>
+			<section class="searchSection">
+				<label for="zipCode">Enter a NYC ZIP code</label>
+				<input type="text" id="zipCode" placeholder="10027">
+				<button id="searchPermits" type="button">Search Permits</button>
+			</section>
+
+			<section id="results" class="resultsSection"></section>
+		</main>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

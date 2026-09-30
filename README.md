@@ -20,3 +20,23 @@ I completed the challenge: 5
 I feel good about my code: 4
 I'm not sure if my constructors are setup cleanly...
 ```
+
+---
+
+## My Solution
+
+**BuildScope – NYC Permit Lookup** is a front-end application that helps users look up recent New York City building permit information by ZIP code.
+
+The application takes a NYC ZIP code entered by the user, retrieves relevant permit data through the NYC Department of Buildings open-data API, and presents the returned information in an easy-to-read format.
+
+![BuildScope – NYC Permit Lookup](img/buildscope-nyc-permit-lookup.png)
+
+## How It's Made
+
+**Tech used:** HTML, CSS, JavaScript, APIs
+
+The application accepts a ZIP code through the search interface and makes an API request for relevant NYC building permit data. JavaScript handles the asynchronous request, processes the returned data, and dynamically renders useful permit information to the DOM.
+
+## What I Learned
+
+This project gave me additional practice working with APIs, handling asynchronous JavaScript, using dynamic user input to construct requests, extracting useful information from returned API data, and rendering results to the DOM.

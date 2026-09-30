@@ -1,0 +1,144 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+/* .clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+} */
+
+/* .clear {
+	clear: both;
+} */
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #f3f3f1;
+  color: #1d1d1d;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+/* HEADER */
+
+header {
+  background: #1f2328;
+  color: white;
+  padding: 40px 60px;
+  border-bottom: 8px solid #f4c430;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+  letter-spacing: -1px;
+}
+
+header p {
+  max-width: 650px;
+  margin: 10px 0 0;
+  color: #d6d6d6;
+  font-size: 1.05rem;
+}
+
+/******************************************
+/* MAIN LAYOUT
+/*******************************************/
+
+main {
+  width: 80%;
+  max-width: 1000px;
+  margin: 40px auto;
+}
+
+/* SEARCH SECTION */
+
+.searchSection {
+  background: white;
+  border-left: 6px solid #f4c430;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.searchSection label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.searchSection input {
+  width: 240px;
+  max-width: 100%;
+  padding: 11px solid #b5b5b5;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.searchSection input:focus {
+  outline: 2px solid #f4c430;
+  border-color: #1f2328;
+}
+
+.searchSection button {
+  padding: 11px 18px;
+  margin-left: 6px;
+  border: 2px solid #1f2328;
+  border-radius: 3px;
+  background: #f4c430;
+  color: #1f2328;
+  font-size: 0.95rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.searchSection button:hover {
+  background: #1f2328;
+  color: white;
+}
+
+/* RESULTS */
+
+.resultsSection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* PERMIT CARDS */
+
+.permitCard {
+  background: white;
+  border-top: 5px solid #f4c430;
+  padding: 20px;
+  /* box-shadow: ; */
+}
+
+.permitCard h2 {
+  margin: 0 0 16px;
+  color: #1f2328;
+  font-size: 1.3rem;
+  line-height: 1.25;
+}
+
+.permitCard p {
+  margin: 10px 0;
+  color: #4b4b4b;
+  font-size: 0.95rem;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
